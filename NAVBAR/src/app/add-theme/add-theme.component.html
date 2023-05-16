@@ -1,0 +1,141 @@
+<app-navbar></app-navbar>
+<div id="generic_price_table">   
+    <section>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                       
+                        <div class="price-heading clearfix">
+                            <h1>THEME DETAILS</h1>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="generic_content clearfix">                   
+                            <div class="generic_head_price clearfix">
+                                     <div class="generic_head_content clearfix">                                    
+                                    <div class="head_bg"></div>
+                                    <div class="head">
+                                        <span>ENTER THEME NAME</span><br><br><br><br>
+                                        <input type="text" id="themeName" [(ngModel)]="themeName" placeholder="enter theme name" style="height: 40px; width: 300px;" value="">
+                                    </div>
+                                       <br>
+                                </div><br>           
+                            </div>                                                
+                        </div>
+                          <br>
+                    </div>                  
+                    <div class="col-md-4">                    
+                        <div class="generic_content active clearfix">
+                         <div class="generic_head_price clearfix">
+                            <div class="generic_head_content clearfix">
+                                 <div class="head_bg"></div>
+                                    <div class="head">
+                                        <span>ENTER IMAGE URL</span><br><br><br><br>
+                                        <input type="text" id="imageUrl" [(ngModel)]="imageUrl" placeholder="enter image url" style="height: 40px; width: 300px;" value="">
+                                    </div>
+                                    <br>                                   
+                                </div>
+                                <br>                        
+                            </div>                                                       
+                        </div>                          
+                    </div>
+                    <div class="col-md-4">                  
+                        <div class="generic_content clearfix">
+                           <div class="generic_head_price clearfix">
+                              <div class="generic_head_content clearfix">
+                                   <div class="head_bg"></div>
+                                    <div class="head">
+                                        <span>ENTER PHOTOGRAPHER DETAILS</span><br><br><br><br>
+                                        <input type="text" id="photographerDetails" [(ngModel)]="photographerDetails" placeholder="enter photographer details" style="height: 40px; width: 300px;" value="">
+                                    </div>                                  
+                                </div><br><br>                              
+                            </div>                                                     
+                        </div>                       
+                    </div>
+                    <br><br>
+                    <div class="col-md-4">                    
+                        <div class="generic_content clearfix">
+                           <div class="generic_head_price clearfix">
+                              <div class="generic_head_content clearfix">
+                                  <div class="head_bg"></div>
+                                    <div class="head">
+                                        <span>ENTER VIDEOGRAPHER DETAILS</span><br><br><br><br>
+                                        <input type="text" id="videographerDetails" [(ngModel)]="videographerDetails" placeholder="enter videographer details" style="height: 40px; width: 300px;" value="">
+
+                                    </div>                                 
+                                    <br>
+                                </div>                               
+                                <div class="generic_price_tag clearfix">	
+                                    <span class="price">                                  
+                                    </span>
+                                </div>                              
+                            </div>                            
+                           
+                            <div class="generic_feature_list">
+                                <ul>
+                                    
+                                </ul>
+                            </div>
+                            
+                        </div>
+                         <br>
+                    </div>
+                    <div class="col-md-4">
+                      <div class="generic_content clearfix">
+                         <div class="generic_head_price clearfix">
+                           <div class="generic_head_content clearfix">
+                             <div class="head_bg"></div>
+                                    <div class="head">
+                                        <span>ENTER THEME RETURN GIFT</span><br><br><br><br>
+                                        <input type="text" id="returnGift"  [(ngModel)]="returnGift" placeholder="enter theme return gift" style="height: 40px; width: 300px;" value="">
+
+                                    </div>
+                                  
+                                    <br>
+                                </div>   
+                               <br>
+                            </div>                            
+                          </div>                        
+                    </div>
+                    <div class="col-md-4">
+                    <div class="generic_content clearfix">
+                       <div class="generic_head_price clearfix">
+                           <div class="generic_head_content clearfix">
+                               <div class="head_bg"></div>
+                                    <div class="head">
+                                        <span>ENTER THEME COST</span><br><br><br><br>
+                                        <input type="text" id="themeCost" [(ngModel)]="themeCost" placeholder="enter theme cost" style="height: 40px; width: 300px;" value="">
+                                    </div>                     
+                                </div>
+                                <br>
+                                <br>
+                                </div>                                                     
+                        </div>                         
+                    </div>
+                    <div class="col-md-4">
+                        <div class="generic_content clearfix">
+                           <div class="generic_head_price clearfix">
+                             <div class="generic_head_content clearfix">
+                                 <div class="head_bg"></div>
+                                    <div class="head">
+                                        <span>ENTER THEME DESCRIPTION</span><br><br><br><br>
+                                        <input type="text" id="themeDescription" [(ngModel)]="themeDescription" style="height: 60px; width: 300px;" placeholder="enter theme description" value="">
+                                    </div>                                   
+                                </div>                               
+                              <br>                              
+                            </div>                                                    
+                        </div>
+                       </div>
+                </div>	
+            </div>
+        </section>             
+        <footer>
+            <a class="bottom_btn" button (click)="submitForm()" > Add Theme</a>
+            <!-- <button (click)="submitForm()">Submit</button> -->
+        </footer>
+    </div>
